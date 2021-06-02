@@ -52,105 +52,77 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <style>
     .jumbotron {
       background-image: url("cliffs.jpg");
       background-size: cover;
       color: white;
       border-radius: 0%;
     }
-</style>
-    <title>Hello, world!</title>
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#"><i class="bi bi-facebook"></i></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    .display-4{
+      display: inline;
+    }
+  </style>
+  <title>Hello, world!</title>
+</head>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </nav>
-    </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
+      <a class="navbar-brand" href="#"><i class="bi bi-facebook"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+  </nav>
+  </div>
+  <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <h1 class="display-4" style="background-color: white; color: green; opacity: 0.5;">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+        featured content or information.</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </div>
@@ -159,86 +131,103 @@
     <hr>
     <h2 class="mb-4">Deal of the Week</h2>
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
-      <div class="col">
-          <div class="col px-0">
-         <img class="img-fluid" src="http://source.unsplash.com/random/">
+      <div class="col px-0">
+        <div class="col">
+          <img class="img-fluid" src="http://source.unsplash.com/random/">
         </div>
-        <div class="col px-0">
-          <p>Paris</p>
+        <div class="col">
+          <p class="shadow p-2">Paris
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam repudiandae nostrum maiores aliquid
+            laudantium corporis neque explicabo, tempora modi dolore qui placeat ratione inventore, harum fugit quia
+            blanditiis consequuntur?
+          </p>
         </div>
-      </div>
-      <div class="col">
-        <div class="col px-0">
-       <img class="img-fluid" src="http://source.unsplash.com/random/">
       </div>
       <div class="col px-0">
-        <p>New York</p>
+        <div class="col">
+          <img class="img-fluid" src="http://source.unsplash.com/random/">
+        </div>
+        <div class="col">
+          <p class="shadow p-2">New York
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, veritatis labore exercitationem ut fuga
+            quae, autem soluta, necessitatibus amet quod corrupti delectus aspernatur. Molestiae nobis doloribus, sequi
+            et nisi earum?
+          </p>
+        </div>
+      </div>
+      <div class="col px-0">
+        <div class="col">
+          <img class="img-fluid" src="http://source.unsplash.com/random/">
+        </div>
+        <div class="col">
+          <p class="shadow p-2">Miami
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum sit repudiandae minima perferendis ad, eum
+            doloribus quae fugiat voluptatibus animi optio, dolores excepturi. Minus distinctio, sit ad minima quae
+            dolorum!
+          </p>
+        </div>
+      </div>
+      <div class="col px-0">
+        <div class="col">
+          <img class="img-fluid" src="http://source.unsplash.com/random/">
+        </div>
+        <div class="col">
+          <p class="shadow p-2">Cancun
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste hic quia eveniet earum nulla. Alias earum
+            ipsum velit quam veritatis fuga nam iure reprehenderit numquam obcaecati eum, repellendus rerum assumenda.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="col">
-      <div class="col px-0">
-     <img class="img-fluid" src="http://source.unsplash.com/random/">
+    <div class="container px-0 mb-5 mt-5">
+      <h2 class="mb-4 shadow p-2">Welcome Summer</h2>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 collapse mb-4" id="collapseExample">
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+        <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
+      </div>
+      <a class="btn btn-primary mt-0" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        See More <i class="bi bi-arrow-down-circle"></i>
+      </a>
     </div>
-    <div class="col px-0">
-      <p>Miami</p>
-    </div>
-  </div>
-  <div class="col ">
-    <div class="col px-0">
-   <img class="img-fluid" src="http://source.unsplash.com/random/">
-  </div>
-  <div class="col px-0">
-    <p>Cancun</p>
-  </div>
-</div>
-</div>
-<div class="container px-0 mb-5">
-  <h2 class="mb-4">Welcome Summer</h2>
-  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-    <div class="col"><img class="img-fluid" src="http://source.unsplash.com/random"></div>
-  </div>
-  </div>
+    <div class="container px-0 d-sm-none d-md-block">
+      <h2> Deal of the Day </h2>
+      <div class="row">
+        <div class="col-md-8 col-lg-8 mb-4">
+          <img class="img-fluid" src="http://source.unsplash.com/random">
+        </div>
+        <div class="col-md-4 col-lg-4 mb-4">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Album Name:</b> DOORIE</li>
+            <li class="list-group-item">Singer: Atif Aslam </li>
+            <li class="list-group-item">Genre: Indian Pop </li>
+            <li class="list-group-item">Tracks Length 45:12</li>
+            <li class="list-group-item">Language: Urdu/Hindi</li>
+          </ul>
+        </div>
+      </div>
 
-  <div class="container px-0">
-    <h2> Deal of the Day </h2>
-    <div class="row">
-        <div class="col-12 col-md-8 col-lg-8 mb-4">
-                <img class="img-fluid" src="http://source.unsplash.com/random">
-              </div>
-                <div class="col-12 col-md-4 col-lg-4 mb-4">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Album Name:</b> DOORIE</li>
-                    <li class="list-group-item">Singer: Atif Aslam </li>
-                    <li class="list-group-item">Genre: Indian Pop </li>
-                    <li class="list-group-item">Tracks Length 45:12</li>
-                    <li class="list-group-item">Language: Urdu/Hindi</li>
-                </ul>
-              </div>
-              </div>
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+      <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
